@@ -7,6 +7,10 @@ from flask_cors import CORS
 from werkzeug.security import generate_password_hash, check_password_hash
 import os
 
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
